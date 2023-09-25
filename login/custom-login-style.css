@@ -1,0 +1,18 @@
+#loginform {
+  border-radius: 10px;
+  box-shadow: 0 0 12px #767676;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+body.login {
+  background-image: url("https://images.pexels.com/photos/159579/crayons-coloring-book-coloring-book-159579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.login #backtoblog a,
+.login #nav a {
+  color: #fff;
+}

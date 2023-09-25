@@ -1,0 +1,166 @@
+@import "reset";
+@import "default";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 80px;
+}
+
+section {
+  margin: 30px 0;
+}
+
+table {
+  width: 100%;
+  th,
+  td {
+    text-align: center;
+    padding: 24px 15px;
+    font-size: 1.4rem;
+  }
+  thead {
+    background-color: #f8fafd;
+    tr {
+      th {
+        color: #b1b5bc;
+      }
+    }
+  }
+  tbody {
+    tr {
+      border-bottom: 1px solid #f8fafd;
+    }
+  }
+  td {
+    .action-btn {
+      margin: 0 8px;
+    }
+    a {
+      color: #ff7f11;
+      font-size: 2rem;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+nav {
+  width: 100%;
+  margin: 15px auto;
+  max-width: 1200px;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    li {
+      padding: 5px;
+      &.current_page_item {
+        border-bottom: 1px solid #000;
+      }
+    }
+  }
+}
+
+.list_tags {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  .tag {
+    background-color: #545f66;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 5px;
+    margin: 0 8px 0 0;
+    border-radius: 5px;
+  }
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 150px;
+    height: 80px;
+    object-fit: contain;
+  }
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 10px auto;
+  a {
+    display: block;
+    margin: 10px 0;
+    font-size: 2rem;
+    &:hover {
+      color: #00a2ff;
+    }
+  }
+  .desc {
+    width: 80%;
+    p {
+      font-size: 1.4rem;
+    }
+  }
+  .thumbnail {
+    width: 20%;
+    max-width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    float: left;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  a.btn {
+    align-items: center;
+    background-color: #000;
+    border-radius: 3px;
+    color: #f0de50;
+    display: flex;
+    justify-content: center;
+    max-width: 180px;
+    padding: 8px;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+
+.videos_list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: 320px;
+  gap: 15px;
+  li {
+    width: 100%;
+    height: 100%;
+    h4 {
+      display: block;
+    }
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.widefat td,
+.widefat th,
+.plantilla.column-plantilla {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}

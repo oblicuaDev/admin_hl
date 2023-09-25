@@ -1,0 +1,19 @@
+/* 
+Theme Name: H&L Theme
+Author: Julian Delgado
+Author URI: https://juliandelgado.dev/
+Description: Tema Bilingual Theme Administrados
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+*/
+
+.widefat td,
+.widefat th,
+.plantilla.column-plantilla {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
