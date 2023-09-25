@@ -3,6 +3,10 @@
 function myPostTypes(){
     // create_post_types('NOVEDADES', 'NOVEDAD', 'dashicons-text-page', 'novedades-bilingual');
     create_post_types('Sliders principales', 'Slider Principal', 'dashicons-images-alt2', 'hl_sliders');
+    create_post_types('Testimonios', 'Testimonio', 'dashicons-testimonial', 'hl_testimonios');
+    create_post_types('Convenios Empresariales', 'Convenio Empresarial', 'dashicons-randomize', 'hl_conv_emp');
+    create_post_types('Empresas convenio', 'Empresa convenio', 'dashicons-building', 'hl_empconvenio');
+    create_post_types('Preguntas a Bela', 'Pregunta', 'dashicons-microphone', 'hl_emp_conv');
 }
 
 function create_post_types($name, $singularName, $icon, $slug){
