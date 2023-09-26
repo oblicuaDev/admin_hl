@@ -5,7 +5,7 @@ function myPostTypes(){
     create_post_types('Sliders principales', 'Slider Principal', 'dashicons-images-alt2', 'hl_sliders');
     create_post_types('Miembros del Equipo', 'Miembro del Equipo', 'dashicons-groups', 'hl_miembros');
     create_post_types('Categorias de Procedimiento', 'Categoria Procedimiento', 'dashicons-category', 'hl_cat_proced');
-    create_post_types('Listado de Procedimeitnos', 'Listado Procedimiento', 'dashicons-list-view', 'hl_list_proced');
+    create_post_types('Listado de Procedimientos', 'Listado Procedimiento', 'dashicons-list-view', 'hl_list_proced');
     create_post_types('Líneas', 'Línea', 'dashicons-networking', 'hl_lineas');
     create_post_types('Testimonios', 'Testimonio', 'dashicons-testimonial', 'hl_testimonios');
     create_post_types('Convenios Empresariales', 'Convenio Empresarial', 'dashicons-randomize', 'hl_conv_emp');
